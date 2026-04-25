@@ -1,0 +1,30 @@
+# Build output
+**/target/
+**/build/
+
+# Local Maven artifacts and downloaded tools
+.m2repo/
+.m2home/
+apache-maven-*/
+apache-maven-*.zip
+
+# Logs
+*.log
+
+# Archives
+*.zip
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local documents not needed in the source repository
+*.docx
+*.pdf
